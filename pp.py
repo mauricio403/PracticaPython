@@ -184,3 +184,21 @@
 #for i in [0,1,2,3,4,5]:
  #    print(i)
 
+
+#Tuplas
+
+#son listas que no se pueden mdificar.... al hacerlo nos da error
+t = ("Mauricio", "Viviana", "ALexandra", 20, [1,2,3], 10, -50)
+print(t)
+
+#t[0]='Luis'
+#print(t)
+
+#print(t.index("Viviana"))
+
+#con index... buscamos por teclado el termino y nos devuelve la posicion que tiene en la tupla
+
+#print(t.count(20))
+#el count sirve para contar cuantos caracteres hay dentor de una tupla
+
+
