@@ -202,3 +202,4 @@ print(t)
 #el count sirve para contar cuantos caracteres hay dentor de una tupla
 
 
+#continara....
