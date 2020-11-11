@@ -188,8 +188,8 @@
 #Tuplas
 
 #son listas que no se pueden mdificar.... al hacerlo nos da error
-t = ("Mauricio", "Viviana", "ALexandra", 20, [1,2,3], 10, -50)
-print(t)
+#t = ("Mauricio", "Viviana", "ALexandra", 20, [1,2,3], 10, -50)
+#print(t)
 
 #t[0]='Luis'
 #print(t)
