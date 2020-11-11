@@ -203,3 +203,23 @@
 
 
 #continara....
+
+#Conjuntos
+
+#alpha = {'Mu', 'aldebaran', 'saga'}
+
+#print('Mu' in alpha) #si ponemos in despues de un string es para ver si existe o no denteo de un conjunto
+
+#Diccionarios
+
+diccionario = {'Mauricio':'Matango', 'Josselyn':'Ambuludi'}
+print(type(diccionario))
+
+#en python la funcion type nos dice de que tipo es un conjunto de datod
+
+print(diccionario['Mauricio'])
+
+#con esto podemos ver cual es el apellido.. con los :
+
+#entradas ppor teclado
+
