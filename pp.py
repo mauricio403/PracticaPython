@@ -212,14 +212,50 @@
 
 #Diccionarios
 
-diccionario = {'Mauricio':'Matango', 'Josselyn':'Ambuludi'}
-print(type(diccionario))
+#diccionario = {'Mauricio':'Matango', 'Josselyn':'Ambuludi'}
+#print(type(diccionario))
 
 #en python la funcion type nos dice de que tipo es un conjunto de datod
 
-print(diccionario['Mauricio'])
+#print(diccionario['Mauricio'])
 
 #con esto podemos ver cual es el apellido.. con los :
 
 #entradas ppor teclado
+
+#funciones
+
+#def estudiantes():
+ # print("Josselyn viviana")
+#print(estudiantes())
+
+#def tablaDel7():
+  #for i in range(10):
+   # print("7 * {} = {}".format(i,i*7))
+#tablaDel7()
+
+
+#funcion que retorna algo
+
+#def aprendo():
+ # return [5]
+#print(aprendo())
+
+#funcion y asignacion de valores.. como un alias
+#def prueba():
+ # return "Mauricio", "Viviana", "Jhoanna", "Mikaela"
+#rint(prueba())
+
+#a,b,c,d = prueba()
+
+#print(a)
+#print(b)
+#print(c)
+#print(d)
+
+
+#def suma(i,j):
+ # return i*j
+
+#print(suma(5,5))
 
