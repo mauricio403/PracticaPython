@@ -259,6 +259,9 @@
 
 #print(suma(5,5))
 
+<<<<<<< HEAD
 mau = 'Practica de python en VS 2019'
 
 print(mau)
+=======
+>>>>>>> 86b476e9cd06a4ccf174242f70512c2923324ed4
