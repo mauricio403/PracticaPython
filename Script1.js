@@ -4,3 +4,6 @@
 var mauricio = 'AMore mio';
 
 alert(mauricio);
+
+
+function
