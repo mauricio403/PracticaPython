@@ -49,7 +49,7 @@
 
 #numero = 10
 
-#val = numero > 5 and numero > 15 
+#val = numero > 5 and numero > 15
 #print(val)
 
 #print(numero>5 or numero>15)
@@ -70,7 +70,7 @@
 #if Maur == 10:
  #   print("Maur vale 10")
 
-#if Maur == 11 or  Maur == 10:
+#if Maur == 11 or Maur == 10:
 #    print("Entro!")
 
 
@@ -110,7 +110,7 @@
 
 #while inicio <= 3:
  #   inicio += 1
-  #  print("Estoy iterando, van  = ", inicio)
+  #  print("Estoy iterando, van = ", inicio)
 #else:
  #   print("Imprimo esto porque se termino y esto es el else")
 
@@ -134,9 +134,9 @@
 
 #while inicio == "empezar":
  #   print("""Que camino deseas elejinr?
-  #  1. Quiero que me saludes
-   # 2. Deseo multiplicar porque no se como hacerlo
-    #3. Quiero salir de este programa , ya que aprendi a multiplicar""")
+  #  1.  Quiero que me saludes
+   # 2.  Deseo multiplicar porque no se como hacerlo
+    #3.  Quiero salir de este programa , ya que aprendi a multiplicar""")
      
     #opcion = input("elije")
     #if opcion == '1':
@@ -187,7 +187,7 @@
 
 #Tuplas
 
-#son listas que no se pueden mdificar.... al hacerlo nos da error
+#son listas que no se pueden mdificar....  al hacerlo nos da error
 #t = ("Mauricio", "Viviana", "ALexandra", 20, [1,2,3], 10, -50)
 #print(t)
 
@@ -196,7 +196,8 @@
 
 #print(t.index("Viviana"))
 
-#con index... buscamos por teclado el termino y nos devuelve la posicion que tiene en la tupla
+#con index...  buscamos por teclado el termino y nos devuelve la posicion que
+#tiene en la tupla
 
 #print(t.count(20))
 #el count sirve para contar cuantos caracteres hay dentor de una tupla
@@ -208,7 +209,8 @@
 
 #alpha = {'Mu', 'aldebaran', 'saga'}
 
-#print('Mu' in alpha) #si ponemos in despues de un string es para ver si existe o no denteo de un conjunto
+#print('Mu' in alpha) #si ponemos in despues de un string es para ver si existe
+#o no denteo de un conjunto
 
 #Diccionarios
 
@@ -219,7 +221,7 @@
 
 #print(diccionario['Mauricio'])
 
-#con esto podemos ver cual es el apellido.. con los :
+#con esto podemos ver cual es el apellido..  con los :
 
 #entradas ppor teclado
 
@@ -241,7 +243,7 @@
  # return [5]
 #print(aprendo())
 
-#funcion y asignacion de valores.. como un alias
+#funcion y asignacion de valores..  como un alias
 #def prueba():
  # return "Mauricio", "Viviana", "Jhoanna", "Mikaela"
 #rint(prueba())
@@ -258,10 +260,33 @@
  # return i*j
 
 #print(suma(5,5))
-
-<<<<<<< HEAD
 mau = 'Practica de python en VS 2019'
 
 print(mau)
-=======
->>>>>>> 86b476e9cd06a4ccf174242f70512c2923324ed4
+
+#w = 1
+#while w < 30:
+ #   print(w)
+  #  if w == 30:
+    #    break
+   # w += 1
+
+
+
+print("Bienvenido al sistema de reconocimiento de digitos de documentos..xD")
+
+numero = input("Escribe el numero de tu documento que deseas verificar")
+
+while len(numero) ==10 or len(numero) == 7 or len(numero) == 5:
+    if len(numero) == 10:
+        print(" El numero es cedula")
+    if len(numero) == 7:
+        print("Es pasaporte")
+    if len(numero) == 5:
+        print("Es carnet de refugiado")
+
+    opcion2 = input("Deseas volver a hacer otra consulta?")
+    if opcion2 == "si":
+        numero = input("Vuelve a ingresar tu numero de documento")
+    else: 
+      print("gracias")
